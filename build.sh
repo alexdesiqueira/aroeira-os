@@ -19,5 +19,5 @@ rpm-ostree install docker docker-compose gammastep stow syncthing udiskie zsh
 # rpm-ostree install vlc
 
 #### Example for enabling a System Unit File
-
+systemctl enable docker.socket
 systemctl enable podman.socket
