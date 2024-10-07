@@ -50,9 +50,11 @@ FROM ghcr.io/ublue-os/${SOURCE_IMAGE}${SOURCE_SUFFIX}:${SOURCE_TAG}
 
 COPY build.sh extra-packages /tmp
 
-RUN mkdir -p /var/lib/alternatives && \
-    /tmp/build.sh && \
-    ostree container commit
+RUN mkdir -p /var/lib/alternatives \
+    && wget -c https://proton.me/download/bridge/protonmail-bridge-3.13.0-1.x86_64.rpm -O /tmp/pm-bridge.rpm
+    && /tmp/build.sh \
+    && ostree container commit
+
 ## NOTES:
 # - /var/lib/alternatives is required to prevent failure with some RPM installs
 # - All RUN commands must end with ostree container commit

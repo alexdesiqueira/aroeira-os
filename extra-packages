@@ -3,6 +3,5 @@ docker-compose
 gammastep
 stow
 syncthing
-tmux
 udiskie
-vim
+/tmp/pm-bridge.rpm
