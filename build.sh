@@ -12,8 +12,8 @@ RELEASE="$(rpm -E %fedora)"
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
-# this installs a package from fedora repos
-rpm-ostree install docker docker-compose gammastep stow syncthing udiskie zsh
+# Installing packages from Fedora repos
+grep -v '^#' /tmp/extra-packages | xargs rpm-ostree install
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
