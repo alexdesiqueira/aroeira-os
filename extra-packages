@@ -5,4 +5,4 @@ gnome-disk-utility
 stow
 syncthing
 udiskie
-/tmp/pm-bridge.rpm
+#/tmp/pm-bridge.rpm
