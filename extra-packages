@@ -1,6 +1,7 @@
 docker
 docker-compose
 gammastep
+gnome-disk-utility
 stow
 syncthing
 udiskie
