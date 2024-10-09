@@ -12,11 +12,11 @@ RELEASE="$(rpm -E %fedora)"
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
-# Removing packages from image
-#grep -v '^#' /tmp/remove-packages | xargs rpm-ostree override remove
-
 # Installing packages from Fedora repos
 grep -v '^#' /tmp/extra-packages | xargs rpm-ostree install
+
+# Removing packages from image
+grep -v '^#' /tmp/remove-packages | xargs rpm-ostree uninstall
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
