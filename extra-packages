@@ -1,11 +1,12 @@
 atril
-atril-caja
-caja
 docker
 docker-compose
 gammastep
 gnome-disk-utility
+ranger
 stow
 syncthing
 udiskie
+zathura
+zathura-plugins-all
 /tmp/pm-bridge.rpm
