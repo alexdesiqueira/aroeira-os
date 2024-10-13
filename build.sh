@@ -16,7 +16,7 @@ RELEASE="$(rpm -E %fedora)"
 grep -v '^#' /tmp/extra-packages | xargs rpm-ostree install
 
 # Removing packages from image
-grep -v '^#' /tmp/remove-packages | xargs rpm-ostree uninstall
+#grep -v '^#' /tmp/remove-packages | xargs rpm-ostree uninstall
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
