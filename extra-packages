@@ -1,8 +1,10 @@
 docker
 docker-compose
+evince
 gammastep
 gnome-disk-utility
 mpv
+nautilus
 ranger
 stow
 syncthing
