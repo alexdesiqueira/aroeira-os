@@ -24,6 +24,9 @@ grep -v '^#' /tmp/extra-packages | xargs rpm-ostree install
 # Adding flathub
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
+# Adding flatpaks
+flatpak install flathub org.zotero.Zotero
+
 #### Example for enabling a System Unit File
 systemctl enable docker.socket
 systemctl enable podman.socket
