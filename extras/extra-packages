@@ -1,4 +1,3 @@
-atril
 docker
 docker-compose
 engrampa
@@ -8,14 +7,13 @@ gnome-disk-utility
 gthumb
 mpv
 nemo
-nautilus
-pluma
 ranger
 stow
 syncthing
 totem
 udiskie
 xed
+xreader
 zathura
 zathura-plugins-all
 /tmp/pm-bridge.rpm
