@@ -21,11 +21,8 @@ grep -v '^#' /tmp/extra-packages | xargs rpm-ostree install
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
 
-# Adding flathub
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-
-# Adding flatpaks
-#flatpak install flathub org.zotero.Zotero
+# Adding cinnamon
+rpm-ostree install @cinnamon-desktop
 
 #### Example for enabling a System Unit File
 systemctl enable docker.socket
