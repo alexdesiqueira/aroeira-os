@@ -4,7 +4,6 @@ set -ouex pipefail
 
 RELEASE="$(rpm -E %fedora)"
 
-
 ### Install packages
 
 # Packages can be installed from any enabled yum repo on the image.
@@ -15,14 +14,8 @@ RELEASE="$(rpm -E %fedora)"
 # Installing packages from Fedora repos
 grep -v '^#' /tmp/extra-packages | xargs rpm-ostree install
 
-# Removing packages from image
-#grep -v '^#' /tmp/remove-packages | xargs rpm-ostree uninstall
-
-# this would install a package from rpmfusion
-# rpm-ostree install vlc
-
-# Adding cinnamon
-rpm-ostree install @cinnamon-desktop
+# Installing Cinnamon Desktop
+grep -v '^#' /tmp/cinnamon-packages | xargs rpm-ostree install
 
 #### Example for enabling a System Unit File
 systemctl enable docker.socket
