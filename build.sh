@@ -15,7 +15,7 @@ RELEASE="$(rpm -E %fedora)"
 grep -v '^#' /tmp/extra-packages | xargs rpm-ostree install
 
 # Installing Cinnamon Desktop
-grep -v '^#' /tmp/cinnamon-packages | xargs rpm-ostree install
+#grep -v '^#' /tmp/cinnamon-packages | xargs rpm-ostree install
 
 #### Example for enabling a System Unit File
 systemctl enable docker.socket
