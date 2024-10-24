@@ -1,17 +1,12 @@
 docker
 docker-compose
-emacs-29.2-3.fc40
 evince
-fd-find
 gammastep
 gnome-disk-utility
 nautilus
-pandoc
 ripgrep
-scrot
 shellcheck
 stow
 syncthing
 udiskie
-wl-clipboard
 /tmp/pm-bridge.rpm
