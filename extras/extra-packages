@@ -1,6 +1,6 @@
 docker
 docker-compose
-emacs
+emacs-29.2-3.fc40
 evince
 fd-find
 gammastep
