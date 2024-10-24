@@ -1,0 +1,12 @@
+docker
+docker-compose
+evince
+gammastep
+gnome-disk-utility
+nautilus
+ripgrep
+shellcheck
+stow
+syncthing
+udiskie
+/tmp/pm-bridge.rpm
