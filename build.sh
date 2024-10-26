@@ -12,7 +12,7 @@ RELEASE="$(rpm -E %fedora)"
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # Installing packages from Fedora repos
-grep -v '^#' /tmp/extra-packages | xargs rpm-ostree install
+grep -v '^#' /tmp/packages | xargs rpm-ostree install
 
 #### Example for enabling a System Unit File
 systemctl enable docker.socket
