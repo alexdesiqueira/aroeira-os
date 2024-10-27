@@ -1,11 +1,9 @@
+atril
 docker
 docker-compose
-evince
 gammastep
 gnome-disk-utility
-nautilus
-ripgrep
-shellcheck
+nemo
 stow
 syncthing
 udiskie
