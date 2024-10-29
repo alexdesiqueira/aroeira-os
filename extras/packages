@@ -4,8 +4,10 @@ emacs-nox
 fd-find
 gammastep
 gnome-disk-utility
+graphviz
 ripgrep
 shellcheck
+scrot
 stow
 syncthing
 udiskie
