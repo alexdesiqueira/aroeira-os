@@ -1,6 +1,6 @@
 docker
 docker-compose
-emacs-nox
+emacs
 fd-find
 gammastep
 gnome-disk-utility
