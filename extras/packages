@@ -1,13 +1,7 @@
 docker
 docker-compose
-emacs
-fd-find
 gammastep
 gnome-disk-utility
-graphviz
-ripgrep
-shellcheck
-scrot
 stow
 syncthing
 udiskie
