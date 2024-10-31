@@ -1,7 +1,10 @@
 docker
 docker-compose
+emacs
+evince
 gammastep
 gnome-disk-utility
+nautilus
 stow
 syncthing
 udiskie
