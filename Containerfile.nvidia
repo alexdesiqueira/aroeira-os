@@ -8,13 +8,13 @@
 # SOURCE_IMAGE arg can be anything from ublue upstream which matches your desired version.
 # See list here: https://github.com/orgs/ublue-os/packages?repo_name=main
 #  "aurora", "bazzite", "bluefin" or "ucore" have different suffixes.
-ARG SOURCE_IMAGE="silverblue"
+ARG SOURCE_IMAGE="sericea"
 
 # SOURCE_SUFFIX arg should include a hyphen and the appropriate suffix name.
 ARG SOURCE_SUFFIX="-nvidia"
 
 # SOURCE_TAG arg must be a version built for the specific image: eg, 39, 40, gts, latest
-ARG SOURCE_TAG="gts"
+ARG SOURCE_TAG="41"
 
 # 2. SOURCE IMAGE
 #
