@@ -1,6 +1,10 @@
 docker
 docker-compose
 evince
+gammastep
+gnome-disk-utility
+nautilus
 stow
 syncthing
+udiskie
 /tmp/pm-bridge.rpm
