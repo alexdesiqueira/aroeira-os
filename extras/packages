@@ -1,14 +1,13 @@
+atril
 docker
 docker-compose
-evince
 gammastep
 gnome-disk-utility
-gnome-text-editor
-loupe
-nautilus
+nemo
 simple-scan
 stow
 syncthing
 udiskie
 vlc
+xed
 /tmp/pm-bridge.rpm
