@@ -4,6 +4,7 @@ docker-compose
 gammastep
 gnome-disk-utility
 nemo
+recoll
 simple-scan
 stow
 syncthing
