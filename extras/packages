@@ -28,7 +28,7 @@ glslang-devel
 gnome-disk-utility
 graphviz
 indent
-java
+java-latest-openjdk
 java-latest-openjdk-devel
 libtool
 ltrace
