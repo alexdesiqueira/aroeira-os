@@ -1,3 +1,4 @@
+ant
 autoconf
 automake
 binutils
@@ -12,6 +13,7 @@ diffstat
 docker
 docker-compose
 doxygen
+ecj
 elfutils
 emacs
 fd-find
@@ -27,6 +29,7 @@ gnome-disk-utility
 graphviz
 indent
 java
+java-latest-openjdk-devel
 libtool
 ltrace
 maim
