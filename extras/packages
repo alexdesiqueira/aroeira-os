@@ -48,6 +48,7 @@ pkgconf
 ranger
 readline-devel
 ripgrep
+sbcl
 shellcheck
 simple-scan
 stow
