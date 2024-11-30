@@ -47,6 +47,7 @@ perf
 pkgconf
 ranger
 readline-devel
+recoll
 ripgrep
 sbcl
 shellcheck
