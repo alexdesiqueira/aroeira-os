@@ -61,6 +61,7 @@ texlive-scheme-basic
 udiskie
 valgrind
 zathura
+zathura-pdf-mupdf
 zathura-plugins-all
 zlib-ng-devel
 zsh
