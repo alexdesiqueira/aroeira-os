@@ -30,6 +30,7 @@ graphviz
 indent
 java-latest-openjdk
 java-latest-openjdk-devel
+latexmk
 libtool
 ltrace
 maim
@@ -57,7 +58,7 @@ strace
 subversion
 syncthing
 systemtap
-texlive-scheme-basic
+texlive-scheme-medium
 udiskie
 valgrind
 zathura
