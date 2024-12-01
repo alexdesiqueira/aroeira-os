@@ -30,6 +30,7 @@ graphviz
 indent
 java-latest-openjdk
 java-latest-openjdk-devel
+jupyterlab
 libtool
 ltrace
 maim
@@ -44,7 +45,11 @@ pandoc
 patch
 patchutils
 perf
+perl-Image-ExifTool
 pkgconf
+python3-lxml
+python3-mutagen
+python3-rarfile
 ranger
 readline-devel
 recoll
@@ -59,6 +64,7 @@ syncthing
 systemtap
 texlive-scheme-basic
 udiskie
+unrtf
 valgrind
 zathura
 zathura-pdf-mupdf
