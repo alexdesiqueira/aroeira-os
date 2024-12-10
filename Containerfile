@@ -32,7 +32,7 @@ RUN mkdir -p /var/lib/alternatives \
     && /tmp/build.sh \
     && ostree container commit
 
-RUN /tmp/install_packages.sh \
+RUN sh /tmp/install_packages.sh \
     && ostree container commit
 
 ## NOTES:
