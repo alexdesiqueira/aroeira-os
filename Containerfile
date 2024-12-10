@@ -25,11 +25,14 @@ FROM ghcr.io/ublue-os/${SOURCE_IMAGE}${SOURCE_SUFFIX}:${SOURCE_TAG}
 #
 # Make modifications desired in your image and install packages by modifying the build.sh script.
 # The following RUN directive does all the things required to run "build.sh" as recommended.
-COPY build.sh extras/packages /tmp
+COPY *.sh extras/* /tmp
 
 RUN mkdir -p /var/lib/alternatives \
     && wget https://proton.me/download/bridge/protonmail-bridge-3.13.0-1.x86_64.rpm -O /tmp/pm-bridge.rpm \
     && /tmp/build.sh \
+    && ostree container commit
+
+RUN /tmp/install_packages.sh \
     && ostree container commit
 
 ## NOTES:
