@@ -32,7 +32,7 @@ RUN mkdir -p /var/lib/alternatives \
     && /tmp/build.sh \
     && ostree container commit
 
-RUN sh /tmp/install_packages.sh \
+RUN grep -v '^#' /tmp/emacs-ide.txt | xargs rpm-ostree install \
     && ostree container commit
 
 ## NOTES:
