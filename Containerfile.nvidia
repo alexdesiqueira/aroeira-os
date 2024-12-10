@@ -14,7 +14,7 @@ ARG SOURCE_IMAGE="sericea"
 ARG SOURCE_SUFFIX="-nvidia"
 
 # SOURCE_TAG arg must be a version built for the specific image: eg, 39, 40, gts, latest
-ARG SOURCE_TAG="41"
+ARG SOURCE_TAG="latest"
 
 # 2. SOURCE IMAGE
 #
@@ -28,7 +28,7 @@ FROM ghcr.io/ublue-os/${SOURCE_IMAGE}${SOURCE_SUFFIX}:${SOURCE_TAG}
 COPY build.sh extras/packages /tmp
 
 RUN mkdir -p /var/lib/alternatives \
-    && wget https://proton.me/download/bridge/protonmail-bridge-3.13.0-1.x86_64.rpm -O /tmp/pm-bridge.rpm \
+    && wget https://proton.me/download/bridge/protonmail-bridge-3.15.0-1.x86_64.rpm -O /tmp/pm-bridge.rpm \
     && /tmp/build.sh \
     && ostree container commit
 
