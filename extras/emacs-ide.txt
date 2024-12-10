@@ -1,1 +1,13 @@
-
+emacs
+fd-find
+glslang
+glslang-devel
+graphviz
+jupyterlab
+maim
+npm
+pandoc
+ripgrep
+sbcl
+shellcheck
+texlive-scheme-full
