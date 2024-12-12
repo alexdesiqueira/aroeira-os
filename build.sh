@@ -15,6 +15,9 @@ RELEASE="$(rpm -E %fedora)"
 grep -v '^#' /tmp/packages | xargs rpm-ostree install
 grep -v '^#' /tmp/emacs-ide.txt | xargs rpm-ostree install
 
+# Remove packages
+rpm-ostree override remove thunar firefox
+
 #### Example for enabling a System Unit File
 systemctl enable docker.socket
 systemctl enable podman.socket
