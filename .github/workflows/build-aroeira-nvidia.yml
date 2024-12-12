@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * 0,3'  # 00:00am UTC Sun, Wed
+    - cron: '0 0 * * *'  # 00:00am UTC
   push:
     branches:
       - main
@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 env:
-  MY_IMAGE_NAME: "${{ github.event.repository.name }}-nvidia"  # the name of the image produced by this build, matches repo names
+  MY_IMAGE_NAME: "aroeira-nvidia"  # the name of the image produced by this build
   MY_IMAGE_DESC: "My Customized Universal Blue Image"
   IMAGE_REGISTRY: "ghcr.io/${{ github.repository_owner }}"  # do not edit
 
