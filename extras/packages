@@ -11,7 +11,6 @@ cmake
 cscope
 ctags
 diffstat
-docker
 docker-compose
 doxygen
 ecj
