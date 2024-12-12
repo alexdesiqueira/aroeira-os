@@ -13,6 +13,7 @@ RELEASE="$(rpm -E %fedora)"
 
 # Installing packages from Fedora repos
 grep -v '^#' /tmp/packages | xargs rpm-ostree install
+grep -v '^#' /tmp/emacs-ide.txt | xargs rpm-ostree install
 
 #### Example for enabling a System Unit File
 systemctl enable docker.socket
