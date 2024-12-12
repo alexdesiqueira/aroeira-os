@@ -10,4 +10,4 @@ pandoc
 ripgrep
 sbcl
 shellcheck
-texlive-scheme-full
+texlive-scheme-basic
