@@ -1,5 +1,5 @@
 ---
-name: Build Aroeira Linux
+name: Build AroeiraOS
 on:
   pull_request:
     branches:
@@ -15,7 +15,7 @@ on:
 
 env:
   MY_IMAGE_NAME: "aroeira"  # the name of the image produced by this build
-  MY_IMAGE_DESC: "My Customized Universal Blue Image"
+  MY_IMAGE_DESC: "AroeiraOS — Fedora Sericea + UBlue modified"
   IMAGE_REGISTRY: "ghcr.io/${{ github.repository_owner }}"  # do not edit
 
 jobs:
