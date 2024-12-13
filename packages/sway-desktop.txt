@@ -1,0 +1,10 @@
+atril
+eom
+gammastep
+gnome-disk-utility
+nemo
+pluma
+simple-scan
+totem
+udiskie
+/tmp/pm-bridge.rpm
