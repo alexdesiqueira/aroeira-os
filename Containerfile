@@ -26,7 +26,7 @@ FROM ghcr.io/ublue-os/${SOURCE_IMAGE}${SOURCE_SUFFIX}:${SOURCE_TAG}
 
 ## make modifications desired in your image and install packages by modifying the build.sh script
 ## the following RUN directive does all the things required to run "build.sh" as recommended.
-COPY shell-scripts/build.sh packages/*.txt /tmp
+COPY shell-scripts/*.sh packages/*.txt /tmp
 
 RUN mkdir -p /var/lib/alternatives && \
     wget https://proton.me/download/bridge/protonmail-bridge-3.15.0-1.x86_64.rpm -O /tmp/pm-bridge.rpm && \
