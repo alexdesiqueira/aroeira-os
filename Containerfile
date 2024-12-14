@@ -30,11 +30,8 @@ COPY shell-scripts/build.sh packages/*.txt /tmp
 
 RUN mkdir -p /var/lib/alternatives && \
     wget https://proton.me/download/bridge/protonmail-bridge-3.15.0-1.x86_64.rpm -O /tmp/pm-bridge.rpm && \
+    /tmp/build.sh && \
     ostree container commit
-
-RUN /tmp/build.sh && \
-    ostree container commit
-
 ## NOTES:
 # - /var/lib/alternatives is required to prevent failure with some RPM installs
 # - All RUN commands must end with ostree container commit

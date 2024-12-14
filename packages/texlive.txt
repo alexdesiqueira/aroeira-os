@@ -1,3 +1,0 @@
-latexmk
-texlive-abntex2
-texlive-scheme-basic

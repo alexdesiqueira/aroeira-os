@@ -1,5 +1,0 @@
-ocaml
-ocaml-findlib-devel
-ocaml-ocamldoc
-ocaml-runtime
-emacs-tuareg

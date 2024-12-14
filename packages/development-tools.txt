@@ -1,8 +1,0 @@
-gettext
-diffstat
-doxygen
-git
-patch
-patchutils
-subversion
-systemtap
