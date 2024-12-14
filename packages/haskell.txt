@@ -1,0 +1,7 @@
+cabal-rpm
+darcs
+ghc
+ghc-rpm-macros
+ghcid
+haskell-platform
+hlint

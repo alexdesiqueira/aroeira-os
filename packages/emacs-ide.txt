@@ -1,0 +1,12 @@
+emacs
+fd-find
+glslang
+glslang-devel
+graphviz
+maim
+npm
+pandoc
+ripgrep
+sbcl
+shellcheck
+wl-clipboard
