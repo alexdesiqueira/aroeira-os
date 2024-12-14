@@ -12,5 +12,5 @@ RELEASE="$(rpm -E %fedora)"
 ## https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 cat /tmp/*.txt | xargs rpm-ostree install
 
-# Enabling a System Unit File
+# Enabling system unit files
 systemctl enable podman.socket
