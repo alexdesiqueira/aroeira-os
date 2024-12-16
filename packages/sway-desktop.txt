@@ -1,4 +1,5 @@
 atril
+emacs
 eom
 gammastep
 gnome-disk-utility
@@ -6,5 +7,6 @@ nemo
 pluma
 simple-scan
 totem
+transmission
 udiskie
 /tmp/pm-bridge.rpm
