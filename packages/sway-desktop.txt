@@ -1,9 +1,7 @@
 atril
-emacs
 eom
 gammastep
 gnome-disk-utility
-nemo
 pluma
 simple-scan
 totem

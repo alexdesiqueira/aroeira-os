@@ -2,3 +2,4 @@ docker-compose
 stow
 syncthing
 zsh
+/tmp/pm-bridge.rpm
