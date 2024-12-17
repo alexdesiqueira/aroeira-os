@@ -7,4 +7,3 @@ simple-scan
 totem
 transmission
 udiskie
-/tmp/pm-bridge.rpm
