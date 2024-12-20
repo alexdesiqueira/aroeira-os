@@ -7,3 +7,6 @@ simple-scan
 totem
 transmission
 udiskie
+zathura
+zathura-pdf-mupdf
+zahura-plugins-all
