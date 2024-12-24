@@ -9,4 +9,4 @@ transmission
 udiskie
 zathura
 zathura-pdf-mupdf
-zahura-plugins-all
+zathura-plugins-all
