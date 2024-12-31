@@ -1,6 +1,11 @@
+atool
+caca-utils
 gammastep
 gnome-disk-utility
+highlight
+mediainfo
 mpv
+poppler-utils
 python3-chardet
 python3-gpg
 python3-pygments
@@ -8,6 +13,8 @@ ranger
 simple-scan
 udiskie
 transmission
+w3m
+w3m-img
 zathura
 zathura-pdf-mupdf
 zathura-plugins-all
