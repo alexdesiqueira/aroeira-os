@@ -1,11 +1,13 @@
-atril
-eom
+fragments
 gammastep
 gnome-disk-utility
-pluma
+gnome-text-editor
+loupe
+nautilus
+papers
+python3-gpg
 simple-scan
 totem
-transmission
 udiskie
 zathura
 zathura-pdf-mupdf
