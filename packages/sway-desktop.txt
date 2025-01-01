@@ -1,10 +1,13 @@
 atool
+atril
 caca-utils
+eom
 gammastep
 gnome-disk-utility
 highlight
 mediainfo
 mpv
+pluma
 poppler-utils
 python3-chardet
 python3-gpg
@@ -12,6 +15,7 @@ python3-pygments
 ranger
 simple-scan
 udiskie
+totem
 transmission
 w3m
 w3m-img
