@@ -1,3 +1,4 @@
+aspell-en
 aspell-es
 aspell-pt_BR
 aspell-pt_PT
