@@ -1,4 +1,5 @@
 caca-utils
+finch
 gammastep
 gnome-disk-utility
 mpv
